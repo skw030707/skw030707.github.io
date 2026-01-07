@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>돌맹이 구경하기</title>
+
+  <style>
+    body {
+      background:#ffffff;
+      font-family: Arial;
+      text-align:center;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap:20px;
+      width: 90%;
+      max-width: 700px;
+      margin: 40px auto;
+    }
+
+    .item{
+      background:white;
+      border-radius:20px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+      padding:15px;
+    }
+
+    img{
+      width:100%;
+      border-radius:15px;
+    }
+
+    .back{
+      text-decoration:none;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>🪨 돌맹이 리스트</h1>
+<p>맘에 드는 돌을 골라보세요</p>
+
+<div class="grid">
+
+  <div class="item">
+    <img src="https://i.imgur.com/4jN2z3y.jpeg">
+    <p>⭐ 귀요미 돌맹이 1호</p>
+  </div>
+
+  <div class="item">
+    <img src="https://i.imgur.com/V2SPVxx.jpeg">
+    <p>⭐ 똑똑해 보이는 돌</p>
+  </div>
+
+  <div class="item">
+    <img src="https://i.imgur.com/9p3qMEC.jpeg">
+    <p>⭐ 츄릅 표정 돌</p>
+  </div>
+
+  <div class="item">
+    <img src="https://i.imgur.com/0a3yq0X.jpeg">
+    <p>⭐ 쿨하게 누운 돌</p>
+  </div>
+
+</div>
+
+<a class="back" href="index.html">← 메인으로 돌아가기</a>
+
+</body>
+</html>
